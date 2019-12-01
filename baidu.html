@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度一下，你就知道</title>
+    <style type="text/css">
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    #top{
+        height: 64px;
+        width: 100%;
+    }
+    #top .ul{
+        height: 64px;
+        float: right;
+        width: auto;
+    }
+     #top .ul span{
+        line-height: 64px;
+        float: right;
+        margin-right: 20px;
+    } 
+    #top .ul span a{
+        font-size: 12px;
+        font-family:Arial;
+        color:#333;
+        font-weight: bold;
+        margin-left: 19px;
+    } 
+    #top .ul span .bri{
+        border: 0;
+        height: 25px;
+        width: 60px;
+        padding: 5px 3px;
+        background: #36f;
+        color: #fff;
+        text-decoration:none;
+        font-weight: normal;
+    }
+    #top .ul span .bri:hover{
+        text-decoration: underline;
+    }
+    .clearfix:after{
+    content:'' ;
+    display: block;
+    clear: both;
+    }
+    .wrapper{
+        width: auto;
+        height: 130px;
+        margin-top: 30px;
+        position: relative;
+    }
+    .wrapper .box{
+        height: 130px;
+    }
+    .wrapper .box img{
+        height: 130px;
+        width: 270px;
+        position: absolute;
+        left: 50%;
+        margin-left: -130px;
+    }
+    .search{
+        height: 36px;
+        text-align: center;
+        position: relative;
+    }
+    .SearchBox{
+        position: absolute;
+        left: 50%;
+        margin-left: -320px;
+        height: 36px;
+        width: 637px;
+        border: 1px solid #b8b8b8;
+        box-sizing: border-box;
+        border-right: none;
+    }
+    .SearchBox input{
+        width: 526px;
+        height: 24px;
+        border: none;
+        margin: 0 0 0 5px;
+        outline: none;
+        color: initial;
+    }
+    .SearchBox button{
+        width: 100px;
+        height: 36px;
+        background: #36f;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+    }
+    .bottom{
+        width: auto;
+        height: 64px;
+        margin-top: 300px;
+    }
+    .bottom .box{
+        height: 64px;
+        line-height: 64px;
+        width: 260px;
+        float: right;
+        margin-right: 50px;
+    }
+    .bottom .box p{
+        font-size: 14px;
+        color: #b8b8b8;
+    }
+    
+    
+
+    
+
+    
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div  class="ul">
+            <span>
+            <a href="">糯米</a>
+            <a href="">新闻</a>
+            <a href="">hao123</a>
+            <a href="">地图</a>
+            <a href="">视频</a>
+            <a href="">贴吧</a>
+            <a href="">登录</a>
+            <a href="">设置</a>
+            <a href="" class="bri">更多产品</a>
+        </span>  
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="box">
+            <img src="bd_logo1.png" alt="">
+        </div>
+    </div>
+    <div class="search">
+        <form action="#">
+        <div class="SearchBox">
+            <input type="text">
+            <button type="submit">百度一下</button>
+        </div>
+        </form>
+    </div>
+    <div class="bottom">
+        <div class="box">
+            <p>以上均为练习，如有侵权，请联系删除。</p>
+        </div>
+    </div>
+</body>
+</html>
